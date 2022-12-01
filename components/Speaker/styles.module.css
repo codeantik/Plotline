@@ -1,0 +1,164 @@
+
+
+
+.speakerBox {
+    /* margin-left: 165px; */
+    /* margin-right: auto; */
+    /* margin-top: 3.75vw; */
+    max-width: 50vw;
+    min-width: 21.87vw;
+    background: #F4F5F7;
+    border-radius: 0.625vw 0.625vw 0px 0px;
+    padding: 0.87vw 1.25vw;
+    margin: 2rem auto 0;
+}
+
+
+.speakerBox h1 {
+    color: #091E42;
+}
+
+.speakerBox h4{
+    font-size: 1vw;
+    margin-bottom: 0.75vw;
+}
+.speaker{
+    margin-bottom:1.56vw;
+    color:#091E42;
+}
+.speaker:last-of-type{
+    margin-bottom: 0px;
+}
+
+.speakerInfo{
+    display: flex;
+    align-items: center;
+}
+.speakerInfo h4 {
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.25vw;  
+    opacity: 0.8;
+    margin-left: 0.625vw;
+    
+}
+.speakerInfo img{
+    width: 2.50vw;
+    height: 2.50vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.speakerComment{
+    margin-left: 3.12vw;
+    opacity: 0.6;
+    font-size: 0.88vw;
+}
+
+.speakerContent {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tagContainer {
+    text-align: center;
+    width: 160px;
+    padding: 2px 5px;
+    color: white;
+    background-color: #FF5630;
+    font-size: 15px;
+    margin: 10px auto 15px;
+    transition: all 0.3s ease;
+}
+
+.tagContainer:hover {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(33, 29, 29);
+    border: 1px solid #FF5630;
+}
+
+.noSpeakers {
+    text-align: center;
+}
+
+.speakerTimestamp {
+    opacity: 0.6;
+    font-size: 13.5px;
+    margin-left: 6px;
+}
+
+.addTagBtn {
+    margin: 10px;
+    transition: all 0.3s ease;
+    padding: 5px;
+}
+
+.addTagBtn:hover {
+    cursor: pointer;
+    color: rgb(33, 29, 29);
+    background-color: #F4F5F7;
+    color: black;
+    font-weight: 500;
+    /* border: 1px solid rgb(33, 29, 29); */
+}
+
+@media screen and (max-width:1400px) {
+    .speakerBox {
+        margin-top: 60px;
+        max-width: 800px;
+        min-width: 300px;
+        background: #F4F5F7;
+        border-radius: 10px 10px 0px 0px;
+        padding:14px 20px;
+    }
+    .speakerBox h4{
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .speaker{
+        margin-bottom:25px;
+        color:#091E42;
+    }
+    .speakerInfo h4 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;  
+        opacity: 0.8;
+        margin-left: 10px;
+    }
+    .speakerInfo img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .speakerComment{
+        margin-left: 50px;
+        opacity: 0.6;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .tagContainer {
+        text-align: center;
+        width: 160px;
+        padding: 2px 5px;
+        color: white;
+        background-color: #FF5630;
+        font-size: 15px;
+        margin: auto;
+        position: absolute;
+        right: 80px;
+    }
+}
+
+@media  screen and (max-width: 450px) {
+    .speakerBox {
+        width: 80%;
+    }
+}

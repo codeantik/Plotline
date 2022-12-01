@@ -1,0 +1,123 @@
+.container{
+    max-width: 85vw;
+    margin:1.25vw auto 1.25vw auto;
+    position: relative;
+}
+.container h1 {
+    font-weight: 500;
+    font-size: 1.87vw;
+    line-height: 2.62vw;
+    color: #091E42;
+    opacity: 0.7;
+    text-shadow: 0px 0.625vw 2.50vw rgba(1, 0, 39, 0.25);
+}
+.h4{
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.87vw;
+    color: #091E42;
+    opacity: 0.7;
+    text-shadow: 0px 0.625vw 2.50vw rgba(1, 0, 39, 0.25);
+}
+
+/* .tag {
+    width: 150px;
+    margin: -370px 0 0 1138px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px 10px 15px;
+} */
+
+/* #popup-tag{
+    position:absolute;
+    display:none;
+    background-color:#141414d4;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+    opacity: 1;
+    border-radius: 10px;
+} */
+
+.paragraph{
+    font-size: 0.88vw;
+    color: #091E42;
+    opacity: 0.8;
+}
+
+.paragraph ::selection {
+    background-color: #FF5630;
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.paragraph ::-moz-selection {
+    background-color: #FF5630;
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+/* link */
+
+.elementLink {
+    display: inline;
+    position: relative;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.elementLinkText {
+    text-decoration: underline;
+    color: rgb(85, 51, 153);
+}
+  
+.popup {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 6px 10px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+}
+  
+.popup a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(51, 61, 153);
+}
+  
+.popupButton {
+    border: none;
+    background: transparent;
+}
+  
+.popupButton:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1400px) {
+    .container{
+        max-width: 85%;
+        margin:20px auto 20px auto;
+    }
+    .container h1 {
+        font-weight: 500;
+        font-size: 26px;
+        line-height:42px;
+        color: #091E42;
+        opacity: 0.7;
+        text-shadow: 0px 10px 40px rgba(1, 0, 39, 0.25);
+    }    
+    .paragraph{
+        font-size: 16px;
+        opacity: 0.8;
+    }
+}

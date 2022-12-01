@@ -1,0 +1,37 @@
+
+.navContainer {
+    background-color: #FAFBFC;
+    height: 60px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navImg {
+   padding: 5px;
+   /* background-color: greenyellow; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-right: 1px solid #E6E6E6;
+   background-color: #FAFBFC;
+
+   /* padding: 10px; */
+}
+
+.navImgContent {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.nav div:last-of-type {
+    font-size: 1.3rem;
+    margin-left: 20px;
+    font-weight: 500;
+}
